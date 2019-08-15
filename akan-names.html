@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+        <title>Akan Names</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+        <h1>Akan Names</h1>
+        <p>Akan names are derived from Ghanian culture. <br>Frequently in Ghana, children are given their <br> first name as a 'day name' which corresponds to <br> the day in the week they were born.</p>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Here are Ghanian day names.</h2>
+                    <p>Male</p>
+                    <ul>
+                            <li>Sunday: Kwasi</li>
+                            
+                            <li>Monday: Kwadwo</li>
+                            
+                            <li>Tuesday: Kwabena</li>
+                            
+                            <li>Wednesday: Kwaku</li>
+                            
+                            <li>Thursday:  Yaw</li>
+                            
+                            <li>Friday: Kofi</li>
+                            
+                            <li>Saturday: Kwame</li>
+                    <p></p>
+                    <p>Female</p>
+                    <ul>
+                            <li>Sunday: Akosua</li>
+
+                            <li>Monday: Adwoa</li>
+                            
+                            <li>Tuesday: Abenaa</li>
+                            
+                            <li>Wednesday: Akua</li>
+                            
+                            <li>Thursday:  Yaa</li>
+                            
+                            <li>Friday: Afua</li>
+                            
+                            <li>Saturday: Ama</li>
+                            <div class="container" text-center>
+                            <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date</p>
+                            </div>
+                        </ul>   
+                        </ul>
+
+                </div>
+                <div>
+                    <h3>Find out:</h3>
+                    <script>
+                    function validateForm() {
+                        var x = document.forms["myForm"]["fname"].value;
+                        if (x == "") {
+                            alert("Name must be filled out");
+                            return false;
+                        }
+                    }
+                    </script>
+                    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()"
+                    method="post">
+                    Name: <input type="text" name="fname">
+                    <input type="submit" value="Submit">
+                </form>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+    
+</html>
